@@ -1,0 +1,7 @@
+<h1>stringify page</h1>
+<!-- <p><b>params is: </b><%= params %></p> -->
+<% if params[:name] == "" or params[:adjective] == "" %>
+<%= @text %>
+<% else %>
+<%= params[:name] %> is so <%= params[:adjective] %>!
+<% end %>
