@@ -1,3 +1,4 @@
+#Hello
 class PagesController < ApplicationController
   def home
     @baz = Foobar.baz ["1", "2", "3", "3", "4", "5", "10", "11", "100"]
